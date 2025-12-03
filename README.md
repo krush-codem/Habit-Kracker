@@ -1,7 +1,4 @@
-# 🚀 Level Up: Gamified Habit Tracker
-
-![Project Banner](https://via.placeholder.com/1200x400/0f172a/6366f1?text=Gamified+Habit+Tracker+Preview)
-
+# 🚀 Level Up: Gamified Habit Kracker
 
 ## 📖 Introduction
 **Level Up** is a productivity application that transforms daily tasks into an RPG-style game. Built to solve the problem of motivation, it uses immediate gratification (XP, Level Ups, Animations) to help users build consistency.
@@ -60,3 +57,32 @@ src/
 │   └── constants.js       # Category definitions & Colors
 ├── App.jsx            # Layout Controller
 └── main.jsx           # Entry Point
+```
+
+## 🚀 Getting Started
+* To run this project locally:
+
+Clone the repository
+
+```Bash
+
+git clone [https://github.com/YOUR_USERNAME/habit-tracker.git](https://github.com/YOUR_USERNAME/habit-tracker.git)
+cd habit-tracker
+Install Dependencies
+```
+```Bash
+
+npm install
+Run the Development Server
+```
+```Bash
+
+npm run dev
+Open in Browser Navigate to http://localhost:5173
+```
+## 🔮 Future Improvements
+Backend Integration: Move from LocalStorage to Firebase/Supabase for cross-device syncing.
+
+Social Features: Leaderboards to compete with friends.
+
+Questlines: Multi-day challenges (e.g., "7 Day Coding Streak").
