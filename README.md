@@ -5,7 +5,7 @@
 
 This project was engineered with a focus on **clean component architecture**, **performant state management**, and **responsive data visualization**.
 
-🔗 **Live Demo:** [Insert Your Vercel Link Here]
+🔗 **Live Demo:** [https://habit-kracker.vercel.app/]
 
 ---
 
@@ -66,7 +66,7 @@ src/
 
 ```Bash
 
-git clone [https://github.com/YOUR_USERNAME/habit-tracker.git](https://github.com/YOUR_USERNAME/habit-tracker.git)
+git clone https://github.com/krush-codem/habit-tracker.git
 cd habit-tracker
 Install Dependencies
 ```
