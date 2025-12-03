@@ -1,16 +1,62 @@
-# React + Vite
+# 🚀 Level Up: Gamified Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](https://via.placeholder.com/1200x400/0f172a/6366f1?text=Gamified+Habit+Tracker+Preview)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Introduction
+**Level Up** is a productivity application that transforms daily tasks into an RPG-style game. Built to solve the problem of motivation, it uses immediate gratification (XP, Level Ups, Animations) to help users build consistency.
 
-## React Compiler
+This project was engineered with a focus on **clean component architecture**, **performant state management**, and **responsive data visualization**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Demo:** [Insert Your Vercel Link Here]
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+### 🎮 Gamification Engine
+* **XP & Leveling System:** Dynamic progress bars and level-up milestones.
+* **Variable Rewards:** Different tasks yield different XP (e.g., *Learning* = 35XP, *Water* = 10XP).
+* **"Respawn" Mechanic:** Unique feature allowing users to repeat completed tasks (grinding) without losing history.
+* **Visual Feedback:** Confetti explosions and Framer Motion animations for user delight.
+
+### 📊 Data & Analytics
+* **Interactive Dashboard:** A scrolling activity log tracking every action.
+* **Weekly Analysis:** Integrated **Recharts** to visualize consistency via Bar and Pie charts.
+* **Timezone Intelligence:** Custom date parsing logic to ensure activity logs respect the user's local device time, preventing history syncing errors.
+
+### ⚡ Technical Highlights
+* **Persisted State:** Uses `localStorage` so users never lose progress on refresh.
+* **Custom Hooks:** Logic separated into `useGamifiedHabits.js` for cleaner UI components.
+* **Responsive Design:** Fully adaptive layout (Stacked on Mobile, Grid on Desktop).
+* **Dark Mode UI:** Aesthetic "Gaming" theme using Tailwind CSS v4.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js (Vite)
+* **Styling:** Tailwind CSS v4 (Bleeding edge)
+* **Animations:** Framer Motion, Canvas Confetti
+* **Charts:** Recharts
+* **Icons:** Lucide React
+
+---
+
+## 📂 Project Structure
+
+This project follows a scalable folder structure separating Logic from View:
+
+```bash
+src/
+├── components/        # UI Components (Pure rendering)
+│   ├── Dashboard.jsx      # Activity Log
+│   ├── WeeklyAnalysis.jsx # Recharts Visualization
+│   ├── LevelUpModal.jsx   # Animation Logic
+│   └── ...
+├── hooks/             # Custom Hooks (Business Logic)
+│   └── useGamifiedHabits.js  # State, LocalStorage, & XP Logic
+├── utils/             # Constants & Helpers
+│   └── constants.js       # Category definitions & Colors
+├── App.jsx            # Layout Controller
+└── main.jsx           # Entry Point
