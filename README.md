@@ -62,7 +62,7 @@ src/
 ## 🚀 Getting Started
 * To run this project locally:
 
-Clone the repository
+* Clone the repository
 
 ```Bash
 
@@ -81,8 +81,8 @@ npm run dev
 Open in Browser Navigate to http://localhost:5173
 ```
 ## 🔮 Future Improvements
-Backend Integration: Move from LocalStorage to Firebase/Supabase for cross-device syncing.
+* Backend Integration: Move from LocalStorage to Firebase/Supabase for cross-device syncing.
 
-Social Features: Leaderboards to compete with friends.
+* Social Features: Leaderboards to compete with friends.
 
-Questlines: Multi-day challenges (e.g., "7 Day Coding Streak").
+* Questlines: Multi-day challenges (e.g., "7 Day Coding Streak").
