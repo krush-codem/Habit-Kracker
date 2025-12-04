@@ -61,10 +61,8 @@ src/
 
 ## 🚀 Getting Started
 * To run this project locally:
-
-* Clone the repository
-
 ```Bash
+Clone the repository
 
 git clone https://github.com/krush-codem/habit-tracker.git
 cd habit-tracker
