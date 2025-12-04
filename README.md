@@ -1,5 +1,5 @@
 # 🚀 Level Up: Gamified Habit Kracker
-![Project Banner]([https://ibb.co/NdM7gPv3])
+![Project Banner](https://ibb.co/NdM7gPv3)
 ## 📖 Introduction
 **Level Up** is a productivity application that transforms daily tasks into an RPG-style game. Built to solve the problem of motivation, it uses immediate gratification (XP, Level Ups, Animations) to help users build consistency.
 
